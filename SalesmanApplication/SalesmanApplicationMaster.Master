@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SalesmanApplicationMaster.master.cs" Inherits="SalesmanApplication.SalesmanApplicationMaster" %>
+
+<!DOCTYPE html>
+<html>
+    <head runat="server">
+        <title></title>
+        <link rel="stylesheet" href="Content/MyStyleSheet.css" />
+    <style>
+       body {background-image:url(SalesPics/SMM.png);
+              background-size:100% 100%;
+              background-attachment:fixed;
+             background-repeat:no-repeat;
+            
+       }
+    </style>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+         </asp:ContentPlaceHolder>
+        </head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div>
+            <div id="header">
+            <h1>Sales & Marketing Management</h1>
+                <hr />
+                <ul>
+                <li><a href="SalesLogin.aspx">Salesman Login</a></li>
+                </ul>
+                <ul>
+                <li><a href="SalesAdmin.aspx">Salesman AdminRegistration</a></li>
+               </ul>
+                </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+        </div>
+            
+    </form>
+</body>
+</html>

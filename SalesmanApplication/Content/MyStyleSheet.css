@@ -1,0 +1,30 @@
+﻿.tablestyle{background-color:cornsilk}
+h1{color:brown;font-size:20pt;font-weight:bolder;}
+title {
+    background-color: blue;
+    font-weight: bolder;
+}
+#txtSalesmanID{background-color:burlywood;border:dotted;}
+#txtNewPassword {
+    background-color: burlywood;
+    border: dotted;
+}
+
+
+#btnSave {
+
+
+    background-color: cadetblue;
+}
+#btnEdit {
+    background-color: cadetblue;
+}
+#btnUpdate {
+    background-color: cadetblue;
+}
+#btnDelete {
+    background-color: cadetblue;
+}
+#btnLogin {
+    background-color: cadetblue;
+}
